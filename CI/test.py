@@ -1,5 +1,5 @@
 import pytest
-from CI.app import add, subtract, multiply, divide
+from app import add, subtract, multiply, divide
 
 def test_add():
     assert add(2, 3) == 5, "Addition failed"
